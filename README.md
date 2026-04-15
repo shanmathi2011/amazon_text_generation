@@ -1,25 +1,35 @@
 # Amazon Text Generation
 
-## Project Overview
+This project is a simple deep learning model that generates Amazon-style product text based on training data.
 
-This project generates Amazon-style product text using a trained deep learning model.
+I built this as part of my learning in NLP and sequence models. The model is trained using LSTM and can generate text that looks similar to product descriptions.
 
-## Files
+## Project Structure
 
-- data/ → dataset
-- notebooks/ → Jupyter notebooks
-- model/ → trained model (.h5)
-- src/ → source code
+- data/ → dataset used for training
+- notebooks/ → Jupyter notebook with full workflow
+- src/ → (reserved for future code modularization)
+- requirements.txt → required libraries
 
 ## How to Run
 
-1. Open notebook in `notebooks/`
-2. Run all cells
+1. Open the notebook in the notebooks folder
+2. Run all cells step by step
+3. The model will generate text outputs
 
-## Model
+## Note
 
-LSTM based text generation
+The trained model file (.h5) is not uploaded because of size limitations.
+You can train the model again using the notebook.
+
+## What I Learned
+
+- Text preprocessing
+- Sequence generation
+- LSTM model building
+- Training and generating text
 
 ---
 
-Created as a learning project
+This project is part of my learning journey.
+
